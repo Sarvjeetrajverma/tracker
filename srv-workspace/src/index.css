@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@700;800&display=swap');
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#010409;color:#c9d1d9;font-family:'JetBrains Mono',monospace;margin:0;padding:0;}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:#010409}
+::-webkit-scrollbar-thumb{background:#21262d;border-radius:3px}
+.md{font-family:'JetBrains Mono',monospace;font-size:12px;color:#c9d1d9;line-height:1.75}
+.md h1,.md h2{color:#58a6ff;margin:10px 0 5px;font-size:14px}
+.md h3{color:#79c0ff;margin:8px 0 4px;font-size:13px}
+.md strong{color:#e6edf3}
+.md code{background:#161b22;border:1px solid #30363d;padding:1px 5px;border-radius:3px;color:#ff7b72;font-size:11px}
+.md li{margin-left:16px;margin-bottom:2px}
+input[type=range]{accent-color:#58a6ff;cursor:pointer}
+input[type=checkbox]{accent-color:#238636;cursor:pointer}
+input[type=date]{color-scheme:dark}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+button:hover{filter:brightness(1.15)}
